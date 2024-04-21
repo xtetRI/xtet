@@ -48,6 +48,15 @@ body {
  
 }
 
+/* centering in css*/
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
 /* no bullets in unordered lists*/
 ul {
   list-style: none;
@@ -55,7 +64,9 @@ ul {
     </style>
   </head>
   <body>
+  <div> class="center"
   <h1>The Xtet</h1>
+  
   <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'About')">About</button>
   <button class="tablinks" onclick="openCity(event, 'Shows')">Shows</button>
@@ -84,6 +95,7 @@ ul {
     <li>the rest</li>
   </ol></p>
 </div>
+</div>
   
 <script>
 function openCity(evt, cityName) {
@@ -100,6 +112,6 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
-         
+        
   </body>
 </html>
