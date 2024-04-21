@@ -16,47 +16,30 @@
     background-size: cover;
     }
 
+  /* Style for the container */
+    .button-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 10px;
+        display: flex;
+        justify-content: center; /* Centers the hyperlinks horizontally */
+    }
 
+    /* Style for the hyperlinks */
+    .button-container a {
+        margin: 0 5px; /* Add spacing between hyperlinks */
+        text-decoration: none; /* Remove default underline */
+        color: #333; /* Set hyperlink color */
+    }
 
-    
+    /* Style for the hyperlinks on hover */
+    .button-container a:hover {
+        color: #000; /* Change color on hover */
+    }
      
-  .button {
-  color:white;
-  font-size: 40px;
-  display: inline;
-  margin: 30px;
-  padding: 7px 35px;
-  background: transparent;
-  border: 3px solid black;
-  cursor: pointer;
-  position: absolute;
-  bottom: 0;
-} 
-
-  .button1 {
-  background-color: white;
-  color: black;
-  border: none;
-  }
-
-  .button1:hover {
-  background-color: inherit;
-  color: white;
-  }
-
-  .button2 {
-  background-color: white;
-  color: black;
-  border: none;
-  }
-
-  .button2:hover {
-  background-color: inherit;
-  color: white;
-  }
-.button1 {background-color: inherit;} /* Green */
-.button2 {background-color: inherit;} /* Blue */
-
     </style>
   </head>
   <body>
@@ -64,17 +47,18 @@
     The <br />
     XTET
   </div>
-    <a href="about.html" data-inline="true">
-    <button class="button button2">About</button>
+    <div class="button-container">
+    <a href="about.html">
+    About
     </a>
-    <a href="videos.html" data-inline="true">
-    <button class="button button2">Videos</button>
+    <a href="videos.html" >
+    Videos
     </a>
-    <a href="gigs.html" data-inline="true">
-    <button class="button button2">Upcoming Gigs</button>
+    <a href="gigs.html">
+   Upcoming Gigs
     </a>
-    <a href="contact.html" data-inline="true">
-    <button class="button button2">Contact Us</button>
+    <a href="contact.html" >
+    Contact Us
     </a>
   </body>
 </html>
