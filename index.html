@@ -16,10 +16,9 @@
     background-size: cover;
     }
 
-    tr {
-    position: absolute;
-    bottom:0px;
-    }
+
+
+    
      
     .button {
     border: none;
@@ -32,6 +31,8 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
     }
 
   .button1 {
@@ -65,19 +66,17 @@
     The <br />
     XTET
   </div>
-    <tr>
-    <th><a href="about.html">
+    <a href="about.html" data-inline="true">
     <button class="button button2">About</button>
-    </a></th>
-    <th><a href="videos.html">
+    </a>
+    <a href="videos.html" data-inline="true">
     <button class="button button2">Videos</button>
-    </a></th>
-    <th><a href="gigs.html">
+    </a>
+    <a href="gigs.html" data-inline="true">
     <button class="button button2">Upcoming Gigs</button>
-    </a></th>
-    <th><a href="contact.html">
+    </a>
+    <a href="contact.html" data-inline="true">
     <button class="button button2">Contact Us</button>
-    </a></th>
-    </tr>
+    </a>
   </body>
 </html>
